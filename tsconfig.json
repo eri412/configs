@@ -1,0 +1,44 @@
+{
+    "include": ["src/**/*"],
+
+    "compilerOptions": {
+        "lib": ["ESNext"],
+        "target": "ESNext",
+
+        // emit
+        "outDir": "dist",
+        "declaration": true,
+        "noEmit": false,
+
+        // handled by eslint; disabled to remove an error clutter in IDEs
+        // no* (e.g. noUnusedLocals) properties checked by esling are ommited, since they're false by default
+        "allowUnreachableCode": true,
+        "allowUnusedLabels": true,
+
+        // type checking
+        "strict": true,
+        "exactOptionalPropertyTypes": true,
+        "noImplicitOverride": true,
+        "noPropertyAccessFromIndexSignature": true,
+        "noUncheckedIndexedAccess": true,
+        // uses type information
+        "noImplicitReturns": true,
+
+        // modules, change if needed
+        "module": "NodeNext",
+        "moduleResolution": "NodeNext",
+
+        "allowArbitraryExtensions": false,
+        "allowImportingTsExtensions": false,
+        "resolveJsonModule": false,
+        "noUncheckedSideEffectImports": true,
+        "paths": {},
+
+        //interop
+        "verbatimModuleSyntax": true,
+
+        // remove after testing
+        "allowJs": true,
+        "checkJs": true,
+    },
+}
