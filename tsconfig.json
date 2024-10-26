@@ -36,6 +36,7 @@
 
         //interop
         "verbatimModuleSyntax": true,
+        "esModuleInterop": true,
 
         // remove after testing
         "allowJs": true,
