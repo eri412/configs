@@ -2,6 +2,7 @@ import tseslint from 'typescript-eslint';
 
 export default {
     name: 'eri412/typescript',
+    files: ['**/*.ts', '**/*.ts'],
     plugins: {
         '@typescript-eslint': tseslint.plugin,
     },

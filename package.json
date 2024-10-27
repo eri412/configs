@@ -1,16 +1,30 @@
 {
-  "name": "configs",
-  "version": "0.1.0",
-  "main": "index.js",
-  "type": "module",
-  "private": true,
-  "keywords": [],
-  "author": "eri412",
-  "license": "ISC",
-  "peerDependencies": {
-    "@stylistic/eslint-plugin": "2.9.0",
-    "eslint": "9.13.0",
-    "typescript": "5.6.3",
-    "typescript-eslint": "8.11.0"
-  }
+    "name": "configs",
+    "version": "0.1.0",
+    "main": "index.js",
+    "type": "module",
+    "private": true,
+    "keywords": [],
+    "author": "eri412",
+    "license": "ISC",
+    "peerDependencies": {
+        "@stylistic/eslint-plugin": "2.9.0",
+        "eslint": "9.13.0",
+        "typescript": "5.6.3",
+        "typescript-eslint": "8.11.0"
+    },
+    "peerDependenciesMeta": {
+        "@stylistic/eslint-plugin": {
+            "optional": true
+        },
+        "eslint": {
+            "optional": true
+        },
+        "typescript": {
+            "optional": true
+        },
+        "typescript-eslint": {
+            "optional": true
+        }
+    }
 }
