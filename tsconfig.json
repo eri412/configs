@@ -38,9 +38,5 @@
         "verbatimModuleSyntax": true,
         "esModuleInterop": true,
         "forceConsistentCasingInFileNames": true,
-
-        // remove after testing
-        "allowJs": true,
-        "checkJs": true,
     },
 }
