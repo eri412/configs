@@ -68,6 +68,7 @@ export default {
         }],
         '@stylistic/new-parens': 'error',
         '@stylistic/no-extra-parens': 'error',
+        '@stylistic/no-extra-semi': 'error',
         '@stylistic/no-mixed-spaces-and-tabs': 'error',
         '@stylistic/no-multi-spaces': 'error',
         '@stylistic/no-multiple-empty-lines': 'error',
