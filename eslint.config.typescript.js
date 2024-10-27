@@ -2,7 +2,6 @@ import tseslint from 'typescript-eslint';
 
 export default {
     name: 'eri412/typescript',
-    files: ["src/**/*.ts", "src/**/*.tsx"],
     plugins: {
         '@typescript-eslint': tseslint.plugin,
     },
@@ -108,6 +107,6 @@ export default {
         '@typescript-eslint/triple-slash-reference': 'error',
         '@typescript-eslint/unbound-method': 'error',
         '@typescript-eslint/unified-signatures': 'error',
-        '@typescript-eslint/use-unknown-in-catch-callback-variable': 'error'
+        '@typescript-eslint/use-unknown-in-catch-callback-variable': 'error',
     },
 };
